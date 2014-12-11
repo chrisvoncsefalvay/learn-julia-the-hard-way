@@ -94,8 +94,8 @@ http://manual.calibre-ebook.com/cli/cli-index.html
 
 Once you have those, try this:
 
-  $ dexy setup
-  $ dexy
+    $ dexy setup
+    $ dexy
 
 This will produce all the gear for dexy, and then build the book
 into output/learn-julia-the-hard-way.pdf as well as HTML output for a web based version.
