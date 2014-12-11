@@ -49,7 +49,6 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 35	   | Unit testing									 | TODO			  |
 | 36	   | Looking under the hood							 | TODO			  |
 | 37	   | Executing C code								 | TODO			  |
-|:--------:|-------------------------------------------------|:--------------:|
 
 NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
 
