@@ -65,6 +65,43 @@ Owing to this, and partly to my own background as a data scientist, LJTHW is goi
 
 Unlike most of Zed Shaw's _Learn X the hard way_ books, LJTHW is not intended for complete novices to programming – Julia is simply not ready yet for people wishing to learn programming by using it, although I see great potential in teaching people a functional programming language ahead of clobbering them with object-oriented concepts. On the other hand, one of the best things about Julia is that it was written by hackers, not language nerds. Yes, it's got all sorts of [metaprogramming goodness](http://docs.julialang.org/en/release-0.3/manual/metaprogramming/), it's [homoiconic](http://c2.com/cgi/wiki?HomoiconicLanguages) and it's got all sorts of other amazing things about it that may be of interest to a few, but they are not relevant to being good, or even pretty good, at Julia. Therefore, I am treating the audience as one of people who need to get a job done, not computer scientists. The latter probably already have taught themselves Julia!
 
+## How to compile
+
+To compile the file into a PDF, you will need to first set up Dexy and, if you also want and HTML format output, docutils.
+
+To install Dexy:
+
+    $ easy_install dexy
+
+Or, using PIP:
+
+    $ pip install dexy
+
+If you want to produce output in HTML format, docutils is also required to be 
+installed:
+
+    $ easy_install docutils
+
+Or, using PIP:
+
+    $ pip install docutils
+
+If you want to make .mobi books with Calibre go install that:
+
+http://calibre-ebook.com/
+
+If you're on Mac OS X, you'll also need to do this:
+http://manual.calibre-ebook.com/cli/cli-index.html
+
+Once you have those, try this:
+
+  $ dexy setup
+  $ dexy
+
+This will produce all the gear for dexy, and then build the book
+into output/learn-julia-the-hard-way.pdf as well as HTML output for a web based version.
+
+
 ## Author
 
 I'm a data scientist, hacker and recovering lawyer living in Oxford, England. In my day job, I'm a software architect, and my parents still don't know what that means. When not working, I am coding for fun and spending time with my wife and our adorable Tortie kitten, River. My website is [here](http://www.chrisvoncsefalvay.com). You can e-mail me [here](mailto:chris[AT]chrisvoncsefalvay[DOT]com).
