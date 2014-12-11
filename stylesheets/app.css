@@ -1,0 +1,104 @@
+pre {
+     background: none repeat scroll 0% 0% #EEEEEE;
+     margin-bottom: 20px;
+     padding: 10px;
+}
+
+dt {
+     font-weight: bold;
+     margin-top: 1em;
+}
+
+dd {
+     margin-left: 1em;
+}
+
+li {
+     margin-left: 20px;
+}
+
+.global-nav {
+     position: relative;
+     width: 100%;
+}
+
+.global-nav, .global-nav-outer {
+     height: 49px;
+     min-width: 1024px;
+     overflow: hidden;
+}
+
+.global-nav {
+     background-color: #252525;
+     background-position: 0px 0px;
+}
+
+.topbar {
+     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25);
+     left: 0px;
+     position: fixed;
+     right: 0px;
+     top: 0px;
+     z-index: 1000;
+}
+
+#header {
+     margin-top: 49px;
+}
+
+#header-block p {
+     text-align: center;
+     font-size: 1.2em;
+     margin-top: 5px;
+}
+
+#footer {
+     border-top: 1px solid #BBBBBB;
+     height: 120px;
+     margin-top: 15px;
+     padding: 15px;
+}
+
+#footer-block p {
+     text-align: center;
+}
+
+
+.note {
+   border: 1px solid #bbb;
+}
+
+.note .first {
+   background-color: #ddd;
+   padding: 5px;
+   font-weight: bold;
+}
+
+.note .last {
+   padding: 5px;
+}
+   
+
+.warning {
+   border: 1px solid #bbb;
+}
+
+.warning .first {
+   background-color: #f99;
+   padding: 5px;
+   font-weight: bold;
+}
+
+.warning .last {
+   padding: 5px;
+}
+
+
+#right-nav {
+    margin-top: 70px;
+}
+
+#header-block p {
+    max-width: 300px;
+}
+

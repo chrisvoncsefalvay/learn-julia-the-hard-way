@@ -1,0 +1,68 @@
+{% if ext is undefined -%}
+{% set ext = f.final_ext() -%}
+{% endif -%}
+
+{% if ext in ('.html', '.mobi') -%}
+{% set image_ext = "svg" -%}
+{% elif ext in ('.pdf') -%}
+{% set image_ext = "eps" -%}
+{% else -%}
+{% set image_ext = None -%}
+{% endif -%}
+
+{% macro code(basename) -%}
+{% if ext == '.html' %}
+.. raw:: html
+
+    {{ d[basename + '|h'] | indent(4, false) }}
+
+{% elif ext == '.pdf' %}
+.. raw:: latex
+
+    {{ d[basename + '|l'] | indent(4, false) }}
+{% elif ext == '.mobi' -%}
+
+.. image:: {{ s.relative_path_to(d[basename + '|pn'].name) }}
+
+{% else %}
+.. warning::
+
+    Unknown target extension {{ f.final_ext() }} for basename {{ basename }}.
+
+{% endif %}
+{%- endmacro %}
+
+{% macro codes(basename, section) -%}
+{% if ext == '.html' %}
+.. raw:: html
+
+    {{ d[basename + '|h'][section] | indent(4, false) }}
+
+{% elif ext == '.pdf' %}
+.. raw:: latex
+
+    {{ d[basename + '|l'][section] | indent(4, false) }}
+{% elif ext == '.mobi' %}
+
+.. image:: {{ s.relative_path_to(d[basename + '|pn'].key.replace("|", "--")) }}--{{ section }}.png
+
+{% else %}
+.. warning::
+
+    Unknown target extension {{ f.final_ext() }} for basename {{ basename }} section {{ section }}.
+{% endif %}
+{%- endmacro %}
+
+
+{% macro nav(prev, next) -%}
+    {% if ext == '.html' and s.name != 'book.rst'%}
+
+.. raw:: html
+
+        <center>
+        <a href="{{ prev }}">&laquo; Prev</a> | <a href="{{ next }}">Next &raquo;
+        <a>
+        </center>
+
+    {% endif %}
+{%- endmacro %}

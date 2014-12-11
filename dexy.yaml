@@ -1,0 +1,60 @@
+assets:
+    - .css|jinja
+    - .js
+    - .html|jinja
+    - .png
+    - .gif
+    - .jinja
+
+tex-assets:
+    - .tex
+    - .sty|jinja
+
+html-code:
+    - code/*.sh-session|pyg|h
+    - code/*.jl|pyg|h
+    - code/*.txt
+
+latex-code:
+    - code/*.sh-session|pyg|l
+    - code/*.jl|pyg|l
+    - code/*.txt
+
+# png-code:
+#     - code/*.sh-session|pyg|pn:
+#         - pyg: { 'add-new-files' : True, 'line_numbers' : True }
+#     - code/*.py|py
+#     - code/*.py|pyg|pn:
+#         - pyg: { 'add-new-files' : True, 'line_numbers' : True }
+#     - code/*.txt
+
+.rst|yamlargs|jinja|rst2html:
+    - html-code
+    - assets
+    - rst2html:
+        { clargs: "--template=template.html" }
+
+learn-julia-the-hard-way.rst|jinja|rst2latex|latex:
+    - code
+    - assets
+    - latex-code
+    - tex-assets
+    - ex*.rst
+    - ex*.md
+    - rst2latex:
+        { clargs: "--documentclass=book \
+                   --documentoptions=letterpaper \
+                   --latex-preamble='\\include{preamble}' \
+                   --stylesheet=orkestrix",
+          add-new-files: True
+        }
+
+# learn-x-the-hard-way.rst|jinja|rst2html|calibre:
+#     - code
+#     - assets
+#     - png-code
+#     - ex*.rst
+#     - rst2html:
+#         { clargs: }
+
+
