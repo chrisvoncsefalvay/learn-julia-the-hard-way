@@ -11,10 +11,10 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 
 | Exercise | Subject                                         | Status         |
 |:--------:|-------------------------------------------------|:--------------:|
-| 0        | The Setup                                       | PARTIAL        |
+| 0        | The Setup                                       | NFP	          |
 | 1        | Printing                                        | TODO           |
 | 2		   | Variables										 | TODO			  |
-| 3		   | Indexable and associative collections			 | TODO	       |				
+| 3		   | Indexable and associative collections			 | TODO	          |				
 | 4        | Basic math 									 | TODO			  |
 | 5		   | Actual math :)									 | TODO			  |
 | 6 	   | Strings										 | TODO			  |

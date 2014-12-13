@@ -28,11 +28,11 @@ latex-code:
 #         - pyg: { 'add-new-files' : True, 'line_numbers' : True }
 #     - code/*.txt
 
-.rst|yamlargs|jinja|rst2html:
-    - html-code
-    - assets
-    - rst2html:
-        { clargs: "--template=template.html" }
+#.rst|yamlargs|jinja|rst2html:
+#    - html-code
+#    - assets
+#    - rst2html:
+#        { clargs: "--template=template.html" }
 
 learn-julia-the-hard-way.rst|jinja|rst2latex|latex:
     - code
@@ -40,7 +40,6 @@ learn-julia-the-hard-way.rst|jinja|rst2latex|latex:
     - latex-code
     - tex-assets
     - ex*.rst
-    - ex*.md
     - rst2latex:
         { clargs: "--documentclass=book \
                    --documentoptions=letterpaper \

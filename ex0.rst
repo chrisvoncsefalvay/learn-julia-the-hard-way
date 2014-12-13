@@ -24,12 +24,12 @@ There is a `PPA` provided for Julia, so all you need to do is get a shell and ru
     sudo add-apt-repository ppa:staticfloat/julia-deps
     sudo apt-get update
     sudo apt-get install julia
-
+::
 Or, in Fedora::
 
     sudo dnf copr enable nalimilan/julia
     sudo yum install julia
-
+::
 
 Compiling from source
 =====================
@@ -47,13 +47,13 @@ There is an implementation of the vastly successful IPython notebook environment
 To launch your environment, either use the `profile` IPython parameter::
 
 	$ ipython notebook --profile julia
-
+::
 
 Alternatively, you can fire up the Julia REPL and launch IJulia by::
 
 	using IJulia
 	notebook()
-
+::
 
 A word on IDEs
 ==============
@@ -85,7 +85,7 @@ Open up Julia by launching IJulia, opening the Julia app provided with the OS X 
 	|__/                   |  x86_64-apple-darwin13.3.0
 
 	julia>
-
+::
 Your version may differ, as will the architecture (final line). If you seek help on Julia forums, always be sure to mention what build you have (the final three lines).
 
 Congratulations. Your adventure begins here. 

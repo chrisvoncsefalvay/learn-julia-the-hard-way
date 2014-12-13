@@ -12,6 +12,4 @@ Table Of Contents
 {% include "introduction.rst" %}
 
 {% include "ex0.rst" %}
-
-{% include "next.rst" %}
-
+{% include "ex1.rst" %}

@@ -1,0 +1,145 @@
+{% import "macros/ork.jinja" as ork with context %}
+Exercise 1: Let's get printing!
+*******************************
+
+In this exercise, we will familiarise ourselves with the Julia REPL and print a few things.
+
+Get to know and love the REPL
+=============================
+
+The great thing about REPLs is that they make learning a language a lot easier - especially a language that is at least partly intended to allow you to quickly prototype complex ideas in a few lines of code, manipulate your code, iterate until you get the desired results, then flesh it out or tidy it up. 
+
+Using the REPL isn't complicated, but it might be unusual at first if you have not used much of a similarly constructed REPL (such as `Prelude`, the Haskell REPL). It helps to remember a few commands and tricks for the future.
+
+Modes
+-----
+
+Julia's REPL has four 'modes', each indicated in the prompt.
+
+Julia
+^^^^^
+
+Prompt: `julia>`
+
+In this mode, you interact with the Julia engine directly. Pressing `Return`/`Enter` executes the command in the current line and prints the result. You can also access the result of the last operation in the `ans` variable. If you don't wish for Julia to print the result, conclude your line with a `;` (semicolon).
+
+Help
+^^^^
+
+Prompt: `help>`
+
+By typing `?` at the beginning of a line, you can enter the help mode. Entering anything searches the Julia documentation for that word.::
+
+    help?> besselj
+    INFO: Loading help data...
+    Base.besselj(nu, x)
+       Bessel function of the first kind of order "nu", J_\nu(x).
+::
+To leave help mode, use the `Backspace` key.
+
+Shell
+^^^^^
+
+Prompt: `shell>`
+
+To execute shell commands, enter `#`. The REPL prompt will change to `shell>`, and anything you enter will be executed as a shell command.
+
+
+Search
+^^^^^^
+
+Prompt: `(reverse-i-search)'`
+
+By pressing `^R`, you can initiate a reverse search of your history, including from previous sessions. It will show you any commands that match the pattern you have entered.
+
+
+Key bindings
+------------
+
+The Julia REPL uses a few key bindings that might be very familiar to those who have used *nix based systems frequently in the past. Most importantly, to exit the REPL, you can use `^D` (Ctrl+D), which will also close your shell, and you can abort a current operation using `^C`.
+
+There are many more key bindings that the Julia REPL recognises, but these should be enough to get you off the ground.
+
+
+Autocompletion and Unicode entry
+--------------------------------
+
+Using `Tab` triggers your new best friend, Julia's autocomplete feature. Julia also knows Unicode math, so this is valid Julia::
+
+    julia> 2*2.5* pi
+	15.707963267948966
+::
+Pressing `Tab` autocompletes to Unicode symbols:
+
+	julia> \sqrt [Tab] -1
+	julia> \sqrt{2}
+	1.4142135623730951
+::	
+For all Unicode completions, check out [the Unicode conversion table in the Julia documentation](https://github.com/JuliaLang/julia/blob/master/doc/manual/unicode-input-table.rst). Remember, you can also use Unicode symbols in saved code.
+
+
+Let's say something!
+====================
+
+In the following, we'll be exploring a few ways to say hello to Julia. Each of these has their place in the coder's arsenal, and while you will eventually use the REPL a little less and your text editor a little more, you will probably use the REPL quite a bit to test out new ideas. Think of the REPL as your lab and the text editor as your drawing board – scientists who spend all their time in the lab eventually go mad, while those who are always at the drawing board rarely discover much!
+
+Using the REPL
+--------------
+
+A REPL interface repeats everything you enter. This makes saying hello to the world rather simple – simply declare a variable containing the string literal "Hello, Julia!" or, even simpler, just declare the string literal. Let's see both of these in action in the REPL.::
+
+	julia> "Hello, Julia!"
+	"Hello, Julia!"
+
+	julia> v = "Hello, Julia!"
+	"Hello, Julia!"
+
+	julia> v
+	"Hello, Julia!"
+::
+
+
+Using `println()`
+-----------------
+
+Now for some actual coding. Time to invoke our first real function. `println` prints the string representation of an object.::
+
+	julia> println("Hello, Julia!")
+	Hello, Julia!
+
+::
+
+You might notice that the "Hello, Julia!" string is not printed in bold type. This is to indicate that rather than part of the REPL's print cycle, it is a system output.
+
+
+Using string concatenation
+--------------------------
+
+String concatenation is just a fancy name for putting strings together. In this case, we create two variables that represent strings, then use the `string()` function to put them together. The `string()` function concatenates each of its positional arguments.::
+
+	julia> what = "Hello"
+	"Hello"
+
+	julia> whom = "Julia"
+	"Julia"
+
+	julia> string(what, ", ", whom, "!")
+	"Hello, Julia!"
+::
+
+Julia also allows for variables to be called within string literals. So the above is equivalent to::
+
+	julia> "$whom, $what!"
+	"Hello, Julia!"
+::
+
+And this is true even for maths (or any function!)::
+
+	julia> "2 plus 2 is $(2+2)."
+	"2 plus 2 is 4."
+::
+
+More about printing
+===================
+
+
