@@ -1,4 +1,4 @@
-{% import "macros/ork.jinja" as ork with context %}
+ import "macros/ork.jinja" as ork with context %}
 Learn Julia The Hard Way
 ************************
 
@@ -12,4 +12,3 @@ Table Of Contents
 {% include "introduction.rst" %}
 
 {% include "ex0.rst" %}
-{% include "ex1.rst" %}

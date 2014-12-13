@@ -34,7 +34,7 @@ latex-code:
 #    - rst2html:
 #        { clargs: "--template=template.html" }
 
-learn-julia-the-hard-way.rst|jinja|rst2latex|latex:
+learn-julia-the-hard-way.rst|jinja|markdown|latex:
     - code
     - assets
     - latex-code
