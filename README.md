@@ -11,9 +11,9 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 
 | Exercise | Subject                                         | Status         |
 |:--------:|-------------------------------------------------|:--------------:|
-| 0        | The Setup                                       | PARTIAL        |
-| 1        | Printing                                        | TODO           |
-| 2		   | Variables										 | TODO			  |
+| 0        | [The Setup](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/03-ex0.md)                                   | FIRST DR        |
+| 1        | [Printing](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/04-ex1.md)                                    | FIRST DR         |
+| 2		   | Variables								         | TODO			  |
 | 3		   | Indexable and associative collections			 | TODO	          |				
 | 4        | Basic math 									 | TODO			  |
 | 5		   | Actual math :)									 | TODO			  |
