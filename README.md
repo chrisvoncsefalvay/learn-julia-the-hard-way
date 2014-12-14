@@ -18,37 +18,34 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 4        | Basic math 									 | TODO			  |
 | 5		   | Actual math :)									 | TODO			  |
 | 6 	   | Strings										 | TODO			  |
-| 7        | Arrays											 | TODO			  |
-| 8		   | Array construction								 | TODO			  |
-| 9		   | Array operations								 | TODO			  |
-| 10	   | Sorting										 | TODO			  |
-| 11	   | Some functions over arrays						 | TODO			  |
-| 12	   | Control flow									 | TODO			  |
-| 13	   | Sequential iteration							 | TODO			  |
-| 14	   | Functions										 | TODO			  |
-| 15	   | Even more math! 								 | TODO			  |
-| 16	   | Methods										 | TODO			  |
-| 17	   | Scope											 | TODO			  |
-| 18	   | Combinatorics fun! 							 | TODO			  |
-| 19	   | Types											 | TODO			  |
-| 20	   | Multiple dispatch								 | TODO			  |
-| 21	   | Handling errors								 | TODO			  |
-| 22	   | Conversions								     | TODO			  |
-| 23	   | Composite types								 | TODO			  |
-| 24	   | Geometry										 | TODO			  |
-| 25	   | Heaps and queues								 | TODO			  |
-| 26	   | Modeling using Julia							 | TODO			  |
-| 27	   | I/O											 | TODO			  |
-| 28	   | Elementary statistics							 | TODO			  |
-| 29	   | Dates and times							     | TODO			  |
-| 30	   | Streams									     | TODO			  |
-| 31	   | Gadfly (viz and graphics)					     | TODO			  |
-| 32	   | Parallel computing								 | TODO			  |
-| 33	   | DArrays & SharedArrays							 | TODO			  |
-| 34	   | Linear algebra									 | TODO			  |
-| 35	   | Unit testing									 | TODO			  |
-| 36	   | Looking under the hood							 | TODO			  |
-| 37	   | Executing C code								 | TODO			  |
+| 7	       | Sorting										 | TODO			  |
+| 8  	   | Some functions over arrays						 | TODO			  |
+| 9 	   | Control flow									 | TODO			  |
+| 10	   | Sequential iteration							 | TODO			  |
+| 11	   | Functions										 | TODO			  |
+| 12	   | Even more math! 								 | TODO			  |
+| 13	   | Methods										 | TODO			  |
+| 14	   | Scope											 | TODO			  |
+| 15	   | Combinatorics fun! 							 | TODO			  |
+| 16	   | Types											 | TODO			  |
+| 17	   | Multiple dispatch								 | TODO			  |
+| 18	   | Handling errors								 | TODO			  |
+| 19	   | Conversions								     | TODO			  |
+| 20	   | Composite types								 | TODO			  |
+| 21	   | Geometry										 | TODO			  |
+| 22	   | Heaps and queues								 | TODO			  |
+| 23	   | Modeling using Julia							 | TODO			  |
+| 24	   | I/O											 | TODO			  |
+| 25	   | Elementary statistics							 | TODO			  |
+| 26	   | Dates and times							     | TODO			  |
+| 27	   | Streams									     | TODO			  |
+| 28	   | Gadfly (viz and graphics)					     | TODO			  |
+| 29	   | Parallel computing								 | TODO			  |
+| 30	   | DArrays & SharedArrays							 | TODO			  |
+| 31	   | Linear algebra									 | TODO			  |
+| 32	   | Unit testing									 | TODO			  |
+| 33	   | Looking under the hood							 | TODO			  |
+| 34	   | Executing C code								 | TODO			  |
 
 NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
 
