@@ -14,20 +14,20 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 0        | [The Setup](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/03-ex0.md)                                   | FIRST DR        |
 | 1        | [Printing](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/04-ex1.md)                                    | FIRST DR         |
 | 2		   | [Variables](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/05-ex2.md)								         | FIRST DR			  |
-| 3		   | Indexable and associative collections			 | TODO	          |				
-| 4        | Basic math 									 | TODO			  |
-| 5		   | Actual math :)									 | TODO			  |
-| 6 	   | Strings										 | TODO			  |
-| 7	       | Sorting										 | TODO			  |
-| 8  	   | Some functions over arrays						 | TODO			  |
-| 9 	   | Control flow									 | TODO			  |
-| 10	   | Sequential iteration							 | TODO			  |
-| 11	   | Functions										 | TODO			  |
-| 12	   | Even more math! 								 | TODO			  |
-| 13	   | Methods										 | TODO			  |
-| 14	   | Scope											 | TODO			  |
-| 15	   | Combinatorics fun! 							 | TODO			  |
-| 16	   | Types											 | TODO			  |
+| 3		   | [Types](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/06-ex3.md)											 | FIRST DR			  |
+| 4		   | [Collections](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md)			 | IN PROGRESS	          |				
+| 5        | Basic math 									 | TODO			  |
+| 6		   | Actual math :)									 | TODO			  |
+| 7 	   | Strings										 | TODO			  |
+| 8	       | Sorting										 | TODO			  |
+| 9  	   | Some functions over arrays						 | TODO			  |
+| 10 	   | Control flow									 | TODO			  |
+| 11	   | Sequential iteration							 | TODO			  |
+| 12	   | Functions										 | TODO			  |
+| 13	   | Even more math! 								 | TODO			  |
+| 14	   | Methods										 | TODO			  |
+| 15	   | Scope											 | TODO			  |
+| 16	   | Combinatorics fun! 							 | TODO			  |
 | 17	   | Multiple dispatch								 | TODO			  |
 | 18	   | Handling errors								 | TODO			  |
 | 19	   | Conversions								     | TODO			  |
