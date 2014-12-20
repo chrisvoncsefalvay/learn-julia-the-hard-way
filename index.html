@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Learn-julia-the-hard-way by chrisvoncsefalvay</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Learn-julia-the-hard-way</h1>
+        <p class="header">Learn Julia the hard way!</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/chrisvoncsefalvay">chrisvoncsefalvay</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="learn-julia-the-hard-way" class="anchor" href="#learn-julia-the-hard-way" aria-hidden="true"><span class="octicon octicon-link"></span></a>Learn Julia the Hard Way</h1>
+
+<p>Because quite frankly, that's the only way to learn any technical programming language.</p>
+
+<p>Julia has recently emerged as the young, dynamic newcomer in the scientific computing/data science computing market – for all the right reasons. Julia is fast, agile, fast, easy to use and... did I mention it's actually pretty fast?</p>
+
+<h2>
+<a id="content-roadmap" class="anchor" href="#content-roadmap" aria-hidden="true"><span class="octicon octicon-link"></span></a>Content roadmap</h2>
+
+<p>LJtHW is a work in progress, and will see times of intense development punctuated by times of not much happening. This is largely owing to the author's rather busy schedule, in addition to the fact that the language is constantly changing and there is occasionally a need to go back and revisit older parts. I will try to adhere to the following content roadmap:</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Exercise</th>
+<th>Subject</th>
+<th align="center">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">0</td>
+<td><a href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/03-ex0.md">The Setup</a></td>
+<td align="center">FIRST DR</td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td><a href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/04-ex1.md">Printing</a></td>
+<td align="center">FIRST DR</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td><a href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/05-ex2.md">Variables</a></td>
+<td align="center">FIRST DR</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td><a href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/06-ex3.md">Types</a></td>
+<td align="center">FIRST DR</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td><a href="https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md">Collections</a></td>
+<td align="center">IN PROGRESS</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>Basic math</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Actual math :)</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>Strings</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>Sorting</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Some functions over arrays</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td>Control flow</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td>Sequential iteration</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td>Functions</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td>Even more math!</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td>Methods</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td>Scope</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td>Combinatorics fun!</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td>Multiple dispatch</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td>Handling errors</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td>Conversions</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td>Composite types</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td>Geometry</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td>Heaps and queues</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td>Modeling using Julia</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">24</td>
+<td>I/O</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td>Elementary statistics</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td>Dates and times</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td>Streams</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">28</td>
+<td>Gadfly (viz and graphics)</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td>Parallel computing</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td>DArrays &amp; SharedArrays</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">31</td>
+<td>Linear algebra</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">32</td>
+<td>Unit testing</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">33</td>
+<td>Looking under the hood</td>
+<td align="center">TODO</td>
+</tr>
+<tr>
+<td align="center">34</td>
+<td>Executing C code</td>
+<td align="center">TODO</td>
+</tr>
+</tbody>
+</table>
+
+<p>NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.</p>
+
+<h2>
+<a id="slant" class="anchor" href="#slant" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slant</h2>
+
+<p>The Julia base package is pretty big, although at the same time, there are lots of other packages around to expand it with. The result is that on the whole, it is impossible to give a thorough overview of all that Julia can do in just a few brief exercises. Therefore, I had to adopt a little 'bias', or 'slant' if you please, in deciding what to focus on and what to ignore. </p>
+
+<p>Julia is a technical computing language, although it does have the capabilities of any general purpose language and you'd be hard-pressed to find tasks it's completely unsuitable for (although that does not mean it's the best or easiest choice for any of them). Julia was developed with the occasional reference to R, and with an avowed intent to improve upon R's clunkiness. R is a great language, but relatively slow, to the point that most people use it to rapid prototype, then implement the algorithm for production in Python or Java. Julia seeks to be as approachable as R but without the speed penalty. </p>
+
+<p>Owing to this, and partly to my own background as a data scientist, LJTHW is going to be somewhat biased towards the needs of statisticians. As such, there will be relatively little talk about fast Fourier transforms, integration and other mathemagical concepts that are beyond the immediate need, while some other components, such as the plotting package Gadfly, which would normally not be of general interest, will be explored. I have tried to strike a fair balance, and I hope I have succeeded there.</p>
+
+<h2>
+<a id="audience" class="anchor" href="#audience" aria-hidden="true"><span class="octicon octicon-link"></span></a>Audience</h2>
+
+<p>Unlike most of Zed Shaw's <em>Learn X the hard way</em> books, LJTHW is not intended for complete novices to programming – Julia is simply not ready yet for people wishing to learn programming by using it, although I see great potential in teaching people a functional programming language ahead of clobbering them with object-oriented concepts. On the other hand, one of the best things about Julia is that it was written by hackers, not language nerds. Yes, it's got all sorts of <a href="http://docs.julialang.org/en/release-0.3/manual/metaprogramming/">metaprogramming goodness</a>, it's <a href="http://c2.com/cgi/wiki?HomoiconicLanguages">homoiconic</a> and it's got all sorts of other amazing things about it that may be of interest to a few, but they are not relevant to being good, or even pretty good, at Julia. Therefore, I am treating the audience as one of people who need to get a job done, not computer scientists. The latter probably already have taught themselves Julia!</p>
+
+<h2>
+<a id="how-to-compile" class="anchor" href="#how-to-compile" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to compile</h2>
+
+<p>There were some compilation instructions here. For now, these have been removed because I have found the Dexy system used by Zed Shaw a pain to deal with, and I will instead use a Pandoc-based conversion to a fully fledged eBook. I will provide compilation instructions in a bit, but until then, you could do worse than reading the chapters in sequence on Github!</p>
+
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>I'm a data scientist, hacker and recovering lawyer living in Oxford, England. In my day job, I'm a software architect, and my parents still don't know what that means. When not working, I am coding for fun and spending time with my wife and our adorable Tortie kitten, River. My website is <a href="http://www.chrisvoncsefalvay.com">here</a>. You can e-mail me <a href="mailto:chris%5BAT%5Dchrisvoncsefalvay%5BDOT%5Dcom">here</a>.</p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
