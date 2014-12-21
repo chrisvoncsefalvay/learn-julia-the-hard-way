@@ -1,2 +1,1 @@
-# Introduction: Need for Speed 
-
+# Introduction
