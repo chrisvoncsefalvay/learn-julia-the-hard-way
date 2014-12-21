@@ -9,43 +9,34 @@ Julia has recently emerged as the young, dynamic newcomer in the scientific comp
 
 LJtHW is a work in progress, and will see times of intense development punctuated by times of not much happening. This is largely owing to the author's rather busy schedule, in addition to the fact that the language is constantly changing and there is occasionally a need to go back and revisit older parts. I will try to adhere to the following content roadmap:
 
+
 | Exercise | Subject                                         | Status         |
 |:--------:|-------------------------------------------------|:--------------:|
+|		   | **PART 1: Understanding Julia **				 | |
 | 0        | [The Setup](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/03-ex0.md)                                   | FIRST DR        |
 | 1        | [Printing](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/04-ex1.md)                                    | FIRST DR         |
 | 2		   | [Variables](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/05-ex2.md)								         | FIRST DR			  |
 | 3		   | [Types](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/06-ex3.md)											 | FIRST DR			  |
 | 4		   | [Collections](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md)			 | IN PROGRESS	          |				
-| 5        | Basic math 									 | TODO			  |
-| 6		   | Actual math :)									 | TODO			  |
+| 5	       | Sorting										 | TODO			  |
+| 6  	   | Some functions over arrays						 | TODO			  |
 | 7 	   | Strings										 | TODO			  |
-| 8	       | Sorting										 | TODO			  |
-| 9  	   | Some functions over arrays						 | TODO			  |
-| 10 	   | Control flow									 | TODO			  |
-| 11	   | Sequential iteration							 | TODO			  |
-| 12	   | Functions										 | TODO			  |
-| 13	   | Even more math! 								 | TODO			  |
-| 14	   | Methods										 | TODO			  |
-| 15	   | Scope											 | TODO			  |
-| 16	   | Combinatorics fun! 							 | TODO			  |
-| 17	   | Multiple dispatch								 | TODO			  |
-| 18	   | Handling errors								 | TODO			  |
-| 19	   | Conversions								     | TODO			  |
-| 20	   | Composite types								 | TODO			  |
-| 21	   | Geometry										 | TODO			  |
-| 22	   | Heaps and queues								 | TODO			  |
-| 23	   | Modeling using Julia							 | TODO			  |
-| 24	   | I/O											 | TODO			  |
-| 25	   | Elementary statistics							 | TODO			  |
-| 26	   | Dates and times							     | TODO			  |
-| 27	   | Streams									     | TODO			  |
-| 28	   | Gadfly (viz and graphics)					     | TODO			  |
-| 29	   | Parallel computing								 | TODO			  |
-| 30	   | DArrays & SharedArrays							 | TODO			  |
-| 31	   | Linear algebra									 | TODO			  |
-| 32	   | Unit testing									 | TODO			  |
-| 33	   | Looking under the hood							 | TODO			  |
-| 34	   | Executing C code								 | TODO			  |
+| 8 	   | Control flow									 | TODO			  |
+| 9	   | Sequential iteration							 | TODO			  |
+| 10	   | Functions										 | TODO			  |
+| 11	   | Scope											 | TODO			  |
+| 12	   | Methods & multiple dispatch								 | TODO			  |
+| 13	   | Handling errors								 | TODO			  |
+| 14	   | Heaps and queues								 | TODO			  |
+| 15	   | I/O											 | TODO			  |
+| 16	   | Dates and times							     | TODO			  |
+| 17	   | Streams									     | TODO			  |
+| 18	   | Parallel computing								 | TODO			  |
+| 19	   | Unit testing									 | TODO			  |
+| 20	   | Looking under the hood							 | TODO			  |
+| 21	   | Executing C code								 | TODO			  |
+| | **PART 2: Applied Julia | |
+| | (This part to be planned out) | |
 
 NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
 
