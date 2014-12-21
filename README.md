@@ -10,9 +10,9 @@ Julia has recently emerged as the young, dynamic newcomer in the scientific comp
 LJtHW is a work in progress, and will see times of intense development punctuated by times of not much happening. This is largely owing to the author's rather busy schedule, in addition to the fact that the language is constantly changing and there is occasionally a need to go back and revisit older parts. I will try to adhere to the following content roadmap:
 
 
-| Exercise | Subject                                         | Status         |
+| Chapter | Subject                                         | Status         |
 |:--------:|-------------------------------------------------|:--------------:|
-|		   | **PART 1: Understanding Julia **				 | |
+|		    **PART 1: Understanding Julia**				  |
 | 0        | [The Setup](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/03-ex0.md)                                   | FIRST DR        |
 | 1        | [Printing](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/04-ex1.md)                                    | FIRST DR         |
 | 2		   | [Variables](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/05-ex2.md)								         | FIRST DR			  |
@@ -33,8 +33,8 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 17	   | Unit testing									 | TODO			  |
 | 18	   | Looking under the hood							 | TODO			  |
 | 19	   | Executing C code								 | TODO			  |
-| | **PART 2: Applied Julia** | |
-| | (This part to be planned out) | |
+|  **PART 2: Applied Julia**  |
+|  (This part to be planned out)  |
 
 NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
 
