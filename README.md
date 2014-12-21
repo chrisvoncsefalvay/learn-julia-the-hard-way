@@ -18,23 +18,21 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 2		   | [Variables](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/05-ex2.md)								         | FIRST DR			  |
 | 3		   | [Types](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/06-ex3.md)											 | FIRST DR			  |
 | 4		   | [Collections](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md)			 | IN PROGRESS	          |				
-| 5	       | Sorting										 | TODO			  |
-| 6  	   | Some functions over arrays						 | TODO			  |
-| 7 	   | Strings										 | TODO			  |
-| 8 	   | Control flow									 | TODO			  |
-| 9	   | Sequential iteration							 | TODO			  |
-| 10	   | Functions										 | TODO			  |
-| 11	   | Scope											 | TODO			  |
-| 12	   | Methods & multiple dispatch								 | TODO			  |
-| 13	   | Handling errors								 | TODO			  |
-| 14	   | Heaps and queues								 | TODO			  |
-| 15	   | I/O											 | TODO			  |
-| 16	   | Dates and times							     | TODO			  |
-| 17	   | Streams									     | TODO			  |
-| 18	   | Parallel computing								 | TODO			  |
-| 19	   | Unit testing									 | TODO			  |
-| 20	   | Looking under the hood							 | TODO			  |
-| 21	   | Executing C code								 | TODO			  |
+| 5 	   | Strings										 | TODO			  |
+| 6 	   | Control flow									 | TODO			  |
+| 7 	   | Sequential iteration							 | TODO			  |
+| 8	   | Functions										 | TODO			  |
+| 9	   | Scope											 | TODO			  |
+| 10	   | Methods & multiple dispatch								 | TODO			  |
+| 11	   | Handling errors								 | TODO			  |
+| 12	   | Heaps and queues								 | TODO			  |
+| 13	   | I/O											 | TODO			  |
+| 14	   | Dates and times							     | TODO			  |
+| 15	   | Streams									     | TODO			  |
+| 16	   | Parallel computing								 | TODO			  |
+| 17	   | Unit testing									 | TODO			  |
+| 18	   | Looking under the hood							 | TODO			  |
+| 19	   | Executing C code								 | TODO			  |
 | | **PART 2: Applied Julia | |
 | | (This part to be planned out) | |
 
