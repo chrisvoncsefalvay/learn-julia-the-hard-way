@@ -19,20 +19,19 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 3		   | [Types](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/06-ex3.md)											 | FIRST DR			  |
 | 4		   | [Collections](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md)			 | FIRST DR	          |				
 | 5 	   | [Strings](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/08-ex5.md)										 | FIRST DR	     |
-| 6 	   | [Control flow](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/09-ex6.md)									 | TODO			  |
-| 7 	   | Sequential iteration							 | TODO			  |
-| 8	   | Functions										 | TODO			  |
-| 9	   | Scope											 | TODO			  |
-| 10	   | Methods & multiple dispatch								 | TODO			  |
-| 11	   | Handling errors								 | TODO			  |
-| 12	   | Heaps and queues								 | TODO			  |
-| 13	   | I/O											 | TODO			  |
-| 14	   | Dates and times							     | TODO			  |
-| 15	   | Streams									     | TODO			  |
-| 16	   | Parallel computing								 | TODO			  |
-| 17	   | Unit testing									 | TODO			  |
-| 18	   | Looking under the hood							 | TODO			  |
-| 19	   | Executing C code								 | TODO			  |
+| 6 	   | [Control flow](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/09-ex6.md)									 | FIRST DR			  |
+| 7	   | [Functions](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/10-ex7.md)										 | TODO			  |
+| 8	   | Scope											 | TODO			  |
+| 9	   | Methods & multiple dispatch								 | TODO			  |
+| 10	   | Handling errors								 | TODO			  |
+| 11   | Heaps and queues								 | TODO			  |
+| 12	   | I/O											 | TODO			  |
+| 13	   | Dates and times							     | TODO			  |
+| 14	   | Streams									     | TODO			  |
+| 15	   | Parallel computing								 | TODO			  |
+| 16	   | Unit testing									 | TODO			  |
+| 17	   | Looking under the hood							 | TODO			  |
+| 18	   | Executing C code								 | TODO			  |
 |  |**PART 2: Applied Julia**  |
 |  |(This part to be planned out)  |
 
