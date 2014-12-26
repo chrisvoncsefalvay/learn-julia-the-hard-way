@@ -1,6 +1,6 @@
 # Learn Julia the Hard Way
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Learn Julia the Hard Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.chrisvoncsefalvay.com" property="cc:attributionName" rel="cc:attributionURL">Chris von Csefalvay</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />
 
 
 Because quite frankly, that's the only way to learn any technical programming language.
@@ -68,6 +68,8 @@ Unlike most of Zed Shaw's _Learn X the hard way_ books, LJTHW is not intended fo
 There were some compilation instructions here. For now, these have been removed because I have found the Dexy system used by Zed Shaw a pain to deal with, and I will instead use a Pandoc-based conversion to a fully fledged eBook. I will provide compilation instructions in a bit, but until then, you could do worse than reading the chapters in sequence on Github!
 
 ## How to contribute
+
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Learn Julia the Hard Way</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.chrisvoncsefalvay.com" property="cc:attributionName" rel="cc:attributionURL">Chris von Csefalvay</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>. 
 
 Pull requests are welcome! Please note that the contents of this book, including your contributions, may form the foundation of a future publication. By contributing, you waive any and all rights over the content you contribute, save the right to be credited as a contributor to the finished work. While I do intend to eventually market a full-length book version of this manuscript, the Github version will remain forever free and open-source (although it might not get updated). I will always acknowledge the community's contributions to this work, and anyone who has contributed to it and is acknowledged in the CONTRIBUTORS.md file will be expressly acknowledged unless they wish otherwise.
 
