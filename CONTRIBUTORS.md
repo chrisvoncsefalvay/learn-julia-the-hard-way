@@ -14,7 +14,7 @@ None yet. Perhaps you can be one?
 - [visr](https://github.com/visr))
 - [Paulo Roberto de Oliveira Castro](https://github.com/brk00)
 - [Tom White](https://github.com/MrTomWhite)
-- [Svaksha](http://about.me/svaksha)
+- [Svaksha](http://svaksha.com/pages/Bio)
 
 # With thanks to
 
