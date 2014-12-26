@@ -9,8 +9,8 @@ _The contents of this book, where applicable, represent the author's views or, w
 
 # With kind contributions from
 
-- [M.Schauer](https://github.com/mschauer))
-- [visr](https://github.com/visr))
+- [M.Schauer](https://github.com/mschauer)
+- [visr](https://github.com/visr)
 - [Paulo Roberto de Oliveira Castro](https://github.com/brk00)
 - [Tom White](https://github.com/MrTomWhite)
 - [Svaksha](http://svaksha.com/pages/Bio)
