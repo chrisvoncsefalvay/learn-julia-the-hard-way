@@ -20,20 +20,31 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 4		   | [Collections](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md)			 | FIRST DR	          |				
 | 5 	   | [Strings](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/08-ex5.md)										 | FIRST DR	     |
 | 6 	   | [Control flow](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/09-ex6.md)									 | FIRST DR			  |
-| 7	   | [Functions](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/10-ex7.md)										 | TODO			  |
-| 8	   | Scope											 | TODO			  |
-| 9	   | Methods & multiple dispatch								 | TODO			  |
-| 10	   | Handling errors								 | TODO			  |
-| 11   | Heaps and queues								 | TODO			  |
-| 12	   | I/O											 | TODO			  |
-| 13	   | Dates and times							     | TODO			  |
-| 14	   | Streams									     | TODO			  |
-| 15	   | Parallel computing								 | TODO			  |
-| 16	   | Unit testing									 | TODO			  |
-| 17	   | Looking under the hood							 | TODO			  |
-| 18	   | Executing C code								 | TODO			  |
+| 7	   	   | [Functions](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/10-ex7.md)										 | FIRST DR			  |
+| 8	   	   | Handling errors								 | TODO			  |
+| 9	   	   | I/O											 | TODO			  |
+| 10	   | Streams									     | TODO			  |
+| 11	   | Parallel computing								 | TODO			  |
+| 12	   | Unit testing									 | TODO			  |
+| 13	   | [Writing good Julia](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/16-ex13.md)								 | TODO			  |
 |  |**PART 2: Applied Julia**  |
-|  |(This part to be planned out)  |
+| X01	   | Quadratic solver								 | TODO			  |
+| X02	   | FizzBuzz										 | TODO			  |
+| X03	   | Bob											 | TODO			  |
+| X04	   | Levenshtein distance							 | TODO			  |
+| X05	   | Dice											 | TODO			  | 
+| X06	   | Great Circle distances							 | TODO			  | 
+| X07	   | Data frames									 | TODO			  |
+| X08	   | Plotting a time series							 | TODO			  |
+| X09	   | Consuming a RESTful API						 | TODO			  |
+| X10	   | Shell management from Julia					 | TODO			  |
+| X11	   | Moving average in a DataFrame					 | TODO			  |
+| X12	   | Naive Bayes classifier							 | TODO			  |
+| X13	   | Fun with nucleotide sequences					 | TODO			  |
+| X14	   | ? Save the Apollo astronauts ? (waiting for perm) | TODO		  |
+| X15	   | Twulia! 										 | TODO			  |
+| X16 	   | Longest Collatz sequence						 | TODO			  |
+
 
 NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
 
