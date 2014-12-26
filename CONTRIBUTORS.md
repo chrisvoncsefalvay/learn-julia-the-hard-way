@@ -2,6 +2,8 @@
 
 Chris von Csefalvay
 
+The author is the sole and exclusive holder of all commercial rights in the entirety of the content. The acontributions of all contributors below are acknowledged with the utmost gratitude.
+
 
 # Reviewers
 
