@@ -24,7 +24,7 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 5 	   | [Strings](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/08-ex5.md)										 | FIRST DR	     |
 | 6 	   | [Control flow](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/09-ex6.md)									 | FIRST DR			  |
 | 7	   	   | [Functions](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/10-ex7.md)										 | FIRST DR			  |
-| 8	   	   | [Handling errors](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/11-ex8.md)								 | TODO			  |
+| 8	   	   | [Handling errors](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/11-ex8.md)								 | FIRST DR			  |
 | 9	   	   | I/O											 | TODO			  |
 | 10	   | Streams									     | TODO			  |
 | 11	   | Parallel computing								 | TODO			  |
