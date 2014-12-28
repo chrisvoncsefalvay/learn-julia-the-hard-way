@@ -25,9 +25,9 @@ LJtHW is a work in progress, and will see times of intense development punctuate
 | 6 	   | [Control flow](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/09-ex6.md)									 | FIRST DR			  |
 | 7	   	   | [Functions](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/10-ex7.md)										 | FIRST DR			  |
 | 8	   	   | [Handling errors](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/11-ex8.md)								 | FIRST DR			  |
-| 9	   	   | I/O											 | TODO			  |
+| 9	   	   | [I/O](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/12-ex9.md)											 | TODO			  |
 | 10	   | Streams									     | TODO			  |
-| 11	   | Parallel computing								 | TODO			  |
+| 11	   | Macros and metaprogramming								 | TODO			  |
 | 12	   | Unit testing									 | TODO			  |
 | 13	   | [Writing good Julia](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/16-ex13.md)								 | TODO			  |
 |  |**PART 2: Applied Julia**  |
