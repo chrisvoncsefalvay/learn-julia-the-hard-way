@@ -11,13 +11,13 @@ epub : $(TITLE).epub
 html : $(TITLE).html
 
 $(TITLE).pdf : $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
-	pandoc --latex-engine=xelatex --toc --mathjax -s -S -o $(TITLE).pdf $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
+	pandoc --latex-engine=xelatex --toc --mathjax -s  --chapters -S -o $(TITLE).pdf $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
 
 $(TITLE).epub : $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
-	pandoc --mathjax --toc -s -S  -o $(TITLE).epub $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
+	pandoc --mathjax --toc -s  --chapters -S  -o $(TITLE).epub $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
 
 $(TITLE).html : $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
-	pandoc --mathjax --toc -s -S -o $(TITLE).html $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
+	pandoc --mathjax --toc -s --chapters -S -o $(TITLE).html $(FRONT_MATTER_FILES) $(CHAPTER_FILES)
 
 clean ::
 	rm -rf $(TITLE).pdf $(TITLE).epub $(TITLE).html
