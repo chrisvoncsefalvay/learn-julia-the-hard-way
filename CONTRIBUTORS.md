@@ -19,4 +19,4 @@ _The contents of this book, where applicable, represent the author's views or, w
 # With thanks to
 
 - My amazing wife, Katie, who has been nothing but awesome throughout the creation of this manuscript.
-- Peter Boardman, for his kind permission to use his Wikibook [Introducing Julia](http://en.wikibooks.org/wiki/Introducing_Julia/) as a foundation for several chapters in this book.
+- Peter Boardman, for his kind permission to use his Wikibook [Introducing Julia](http://en.wikibooks.org/wiki/Introducing_Julia) as a foundation for several chapters in this book.
