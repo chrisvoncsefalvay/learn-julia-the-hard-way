@@ -1,7 +1,7 @@
 CHAPTER_DIR := _chapters
 TITLE := Learn_Julia_the_Hard_Way
 
-FRONT_MATTER_FILES = title.txt CONTRIBUTORS.md
+FRONT_MATTER_FILES = title.txt CONTRIBUTORS.md LICENSE.md
 CHAPTER_FILES = $(shell find ${CHAPTER_DIR} -type f -name '*.md')
 
 all : pdf epub html
