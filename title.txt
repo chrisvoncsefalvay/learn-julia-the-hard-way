@@ -1,0 +1,6 @@
+---
+title: Learn Julia the Hard Way
+author: Chris von Csefalvay
+rights: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+language: en-US
+...
