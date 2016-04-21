@@ -10,44 +10,7 @@ Julia has recently emerged as the young, dynamic newcomer in the scientific comp
 
 ## Content roadmap
 
-LJtHW is a work in progress, and will see times of intense development punctuated by times of not much happening. This is largely owing to the author's rather busy schedule, in addition to the fact that the language is constantly changing and there is occasionally a need to go back and revisit older parts. I will try to adhere to the following content roadmap:
-
-
-| Chapter | Subject                                         | Status         |
-|:--------:|-------------------------------------------------|:--------------:|
-|		    |**PART 1: Understanding Julia**				  |
-| 0        | [The Setup](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/03-ex0.md)                                   | FIRST DR        |
-| 1        | [Printing](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/04-ex1.md)                                    | FIRST DR         |
-| 2		   | [Variables](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/05-ex2.md)								         | FIRST DR			  |
-| 3		   | [Types](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/06-ex3.md)											 | FIRST DR			  |
-| 4		   | [Collections](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/07-ex4.md)			 | FIRST DR	          |				
-| 5 	   | [Strings](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/08-ex5.md)										 | FIRST DR	     |
-| 6 	   | [Control flow](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/09-ex6.md)									 | FIRST DR			  |
-| 7	   	   | [Functions](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/10-ex7.md)										 | FIRST DR			  |
-| 8	   	   | [Handling errors](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/11-ex8.md)								 | FIRST DR			  |
-| 9	   	   | [I/O](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/12-ex9.md)											 | TODO			  |
-| 10	   | Streams									     | TODO			  |
-| 11	   | Macros and metaprogramming								 | TODO			  |
-| 12	   | Unit testing									 | TODO			  |
-| 13	   | [Writing good Julia](https://github.com/chrisvoncsefalvay/learn-julia-the-hard-way/blob/master/_chapters/16-ex13.md)								 | TODO			  |
-|  |**PART 2: Applied Julia**  |
-| X01	   | Quadratic solver								 | TODO			  |
-| X02	   | FizzBuzz										 | TODO			  |
-| X03	   | Bob											 | TODO			  |
-| X04	   | Levenshtein distance							 | TODO			  |
-| X05	   | Dice											 | TODO			  | 
-| X06	   | Great Circle distances							 | TODO			  | 
-| X07	   | Data frames									 | TODO			  |
-| X08	   | Plotting a time series							 | TODO			  |
-| X09	   | Consuming a RESTful API						 | TODO			  |
-| X10	   | Shell management from Julia					 | TODO			  |
-| X11	   | Moving average in a DataFrame					 | TODO			  |
-| X12	   | Naive Bayes classifier							 | TODO			  |
-| X13	   | Fun with nucleotide sequences					 | TODO			  |
-| X14	   | ? Save the Apollo astronauts ? (waiting for perm) | TODO		  |
-| X15	   | Twulia! 										 | TODO			  |
-| X16 	   | Longest Collatz sequence						 | TODO			  |
-
+LJtHW is a work in progress, and will see times of intense development punctuated by times of not much happening. This is largely owing to the author's rather busy schedule, in addition to the fact that the language is constantly changing and there is occasionally a need to go back and revisit older parts.
 
 NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
 
@@ -65,7 +28,7 @@ Unlike most of Zed Shaw's _Learn X the hard way_ books, LJTHW is not intended fo
 
 ## How to compile
 
-There were some compilation instructions here. For now, these have been removed because I have found the Dexy system used by Zed Shaw a pain to deal with, and I will instead use a Pandoc-based conversion to a fully fledged eBook. I will provide compilation instructions in a bit, but until then, you could do worse than reading the chapters in sequence on Github!
+Install [GitBook](https://github.com/GitbookIO/gitbook) and run `make`.
 
 ## How to contribute
 
