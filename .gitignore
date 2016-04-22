@@ -1,3 +1,5 @@
 output/
 .dexy/
 .trash/
+_book
+book.pdf
