@@ -15,7 +15,7 @@ _The contents of this book, where applicable, represent the author's views or, w
 - [Tom White](https://github.com/MrTomWhite)
 - [Svaksha](http://svaksha.com/pages/Bio)
 - [Louis Luangkesorn](http://lugerpitt.blogspot.com/)
-- [Bobby Lindsey] (https://github.com/bobbywlindsey)
+- [Bobby Lindsey](https://github.com/bobbywlindsey)
 
 # With thanks to
 
