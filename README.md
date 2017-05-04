@@ -8,17 +8,9 @@
 
 
 
-
-Because quite frankly, that's the only way to learn any technical programming language.
-
-Julia has recently emerged as the young, dynamic newcomer in the scientific computing/data science computing market – for all the right reasons. Julia is fast, agile, fast, easy to use and... did I mention it's actually pretty fast?
-
-
 ## Content roadmap
 
-LJtHW is a work in progress, and will see times of intense development punctuated by times of not much happening. This is largely owing to the author's rather busy schedule, in addition to the fact that the language is constantly changing and there is occasionally a need to go back and revisit older parts.
-
-NB. The order of modules may change depending on how the interdependence of the various chapters changes. The roadmap is not final. I am very happy to listen to suggestions from the community, since it's difficult to gauge at the moment what is going to be a core feature in Julia and how the demographic of those learning Julia will evolve.
+![http://i1.wp.com/chrisvoncsefalvay.com/wp-content/uploads/roadmap.png?w=1356]
 
 ## Slant
 
