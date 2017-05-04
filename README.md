@@ -10,7 +10,7 @@
 
 ## Content roadmap
 
-![http://i1.wp.com/chrisvoncsefalvay.com/wp-content/uploads/roadmap.png?w=1356]
+!(http://i1.wp.com/chrisvoncsefalvay.com/wp-content/uploads/roadmap.png?w=1356)[blah]
 
 ## Slant
 
