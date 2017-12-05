@@ -16,6 +16,7 @@ _The contents of this book, where applicable, represent the author's views or, w
 - [Svaksha](http://svaksha.com/pages/Bio)
 - [Louis Luangkesorn](http://lugerpitt.blogspot.com/)
 - [Bobby Lindsey](https://github.com/bobbywlindsey)
+- [Alessandro Melis](https://github.com/alemelis)
 
 # With thanks to
 
