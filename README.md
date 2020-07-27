@@ -1,16 +1,4 @@
-# Learn Julia the Hard Way
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
-
-
-# IMPORTANT:
-
-**Read [this](http://chrisvoncsefalvay.com/juliabook-future/) about the future of the #juliabook!**
-
-
-
-## Content roadmap
-
-![](http://i1.wp.com/chrisvoncsefalvay.com/wp-content/uploads/roadmap.png?w=1024)
+# Learn Julia the Hard Way [![DOI](https://zenodo.org/badge/27856210.svg)](https://zenodo.org/badge/latestdoi/27856210)
 
 ## Slant
 
@@ -36,5 +24,6 @@ Pull requests are welcome! Please note that the contents of this book, including
 
 ## Author
 
-I'm a data scientist, hacker and recovering lawyer living in Oxford, England. In my day job, I'm a software architect, and my parents still don't know what that means. When not working, I am coding for fun and spending time with my wife and our adorable Tortie kitten, River. My website is [here](http://www.chrisvoncsefalvay.com). You can e-mail me [here](mailto:chris[AT]chrisvoncsefalvay[DOT]com).
+I'm a data scientist, hacker and recovering lawyer living in Northern Virginia. In my day job, I'm a software architect, and my parents still don't know what that means. When not working, I am coding for fun and spending time with my wife and our adorable Tortie kitten, River. My website is [here](http://www.chrisvoncsefalvay.com). You can e-mail me [here](mailto:chris[AT]chrisvoncsefalvay[DOT]com).
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
